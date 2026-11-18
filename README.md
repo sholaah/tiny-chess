@@ -6,7 +6,7 @@
 
 Entry for the [make.fun “Build the strongest chess engine in 4 KB of Python” bounty](https://make.fun/bounty/tiny-chess-01).
 
-A complete chess engine in a single `main.py` of 3,528 bytes (limit 4,096), written in pure Python 3.13 standard library:
+A complete chess engine in a single `main.py` of 3,945 bytes (limit 4,096), written in pure Python 3.13 standard library:
 
 - 0x88-style 10x12 board, full legal move generation (castling, en passant, promotions), Zobrist hashing with incremental updates
 - Negamax alpha-beta search with transposition table, principal variation search, late move reductions, null-move pruning, killer moves, and check extensions
